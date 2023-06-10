@@ -1,0 +1,56 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 1440px;
+    
+}
+
+.top-bg{
+    display: flex;
+    margin-left: 60rem;
+}
+
+.bottom-bg{
+    display: flex;
+  /*  margin-bottom: 30rem;*/
+}
+
+
+
+.pricing{
+    display: flex;
+    margin-left: 38rem;
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:inherit;
+
+}
+
+.annual{
+    display: flex;
+    margin-left: 37rem;
+    margin-top: 1.5rem;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.month{
+    display: flex;
+    margin-left: 6rem;
+    font-weight: 400;
+    
+}
+
+#basic{
+    display: flex;
+    margin-left: 6rem;
+    align-content:end;
+
+}
